@@ -1,0 +1,30 @@
+{
+  "name": "as-new-inmotions-backend-local",
+  "version": "1.0.0",
+  "description": "Backend local modular para AS_New_InMotions preparado para migrar a MongoDB/Cosmos DB.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "auth",
+    "backend-local",
+    "cosmos-ready",
+    "inmotions",
+    "json-local",
+    "modular",
+    "mongodb-ready",
+    "moods",
+    "reminders",
+    "resources",
+    "triage",
+    "utb"
+  ],
+  "author": "AS_New_InMotions",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mysql2": "^3.22.3"
+  }
+}
